@@ -22,11 +22,17 @@
     >
       Whether it's a question about our services, a request for technical
       assistance, or suggestions for improvement, our team is eager to hear from
-      you.
+      you.  
     </p>
         <div class="grid grid-cols-1 gap-x-6 gap-y-6 sm:px-6 px-4 lg:grid-cols-2 items-start">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3868.440249841513!2d75.03060693804981!3d14.168973394504276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbb8b3a3fd6a965%3A0x9cd09c949fa85cba!2sRajashree%20Furnitures!5e0!3m2!1sen!2sin!4v1752596010690!5m2!1sen!2sin" 
-                      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="w-full h-full">
+                        <iframe 
+                          class="w-full h-[300px] sm:h-[400px] lg:h-[450px] rounded-xl border" 
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3868.440249841513!2d75.03060693804981!3d14.168973394504276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbb8b3a3fd6a965%3A0x9cd09c949fa85cba!2sRajashree%20Furnitures!5e0!3m2!1sen!2sin!4v1752596010690!5m2!1sen!2sin"
+                          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                      </div>
+
 
       <form action="#" class="flex flex-col gap-4 lg:max-w-sm">
         

@@ -1,5 +1,7 @@
 <?php 
   session_start();
+  require '../connection/conn.php'; 
+
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +19,7 @@
 <body class="bg-gray-100" x-data="{ open: false }">
 
   <!-- ✅ Top Navbar -->
-  <nav class="bg-black/90 text-white flex justify-between items-center p-2 relative">
+  <nav class="bg-black/90 text-white flex justify-between items-center p-2 pb-8 relative">
     <!-- Logo -->
     <a href="furniture.php">
       <img src="../images/logo.png" class="w-36 h-20 object-contain" alt="Logo" />

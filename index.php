@@ -1,5 +1,5 @@
 <?php
-require '../conection/conn.php'; 
+require '../connection/conn.php'; 
 require 'encdec.php';
 
 $toastMessage = $_SESSION['toast_message'] ?? null;

@@ -25,8 +25,14 @@
       you.
     </p>
         <div class="grid grid-cols-1 gap-x-6 gap-y-6 sm:px-6 px-4 lg:grid-cols-2 items-start">
-                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3868.4833473207113!2d75.02463799678955!3d14.166444800000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbb8b76f04c78c5%3A0x2f67c284f90230dd!2sRajashree%20furniture%20sagar!5e0!3m2!1sen!2sin!4v1752595855163!5m2!1sen!2sin" 
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      <div class="w-full h-full">
+                        <iframe 
+                          class="w-full h-[300px] sm:h-[400px] lg:h-[450px] rounded-xl border" 
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3868.4833473207113!2d75.02463799678955!3d14.166444800000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbb8b76f04c78c5%3A0x2f67c284f90230dd!2sRajashree%20furniture%20sagar!5e0!3m2!1sen!2sin!4v1752595855163!5m2!1sen!2sin"
+                          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                      </div>
+
 
       <form action="#" class="flex flex-col gap-4 lg:max-w-sm">
         

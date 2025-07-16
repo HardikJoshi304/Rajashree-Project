@@ -1,6 +1,6 @@
 <?php 
   session_start();
-  require '../conection/conn.php'; 
+  require '../connection/conn.php'; 
 
 ?>
 
