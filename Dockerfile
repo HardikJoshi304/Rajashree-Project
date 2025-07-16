@@ -1,12 +1,10 @@
 FROM php:8.2-apache
 
+# Enable Apache mod_rewrite
 RUN a2enmod rewrite
 
-# Copy your code into the Apache directory
-COPY . C:\xampp\htdocs\Rajashree Ent\Enterprise\pages
+# Copy all files from the build context (your GitHub repo root) into /var/www/html
+COPY . /var/www/html
 
 # Set working directory
-WORKDIR C:\xampp\htdocs\Rajashree Ent\Enterprise\pages	
-
-# Expose port 80
-EXPOSE 80
+WORKDIR /var/www/html
